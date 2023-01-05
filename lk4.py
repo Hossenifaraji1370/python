@@ -1,8 +1,6 @@
-Program:
-
-n = 5
-while n > 0 :
-    print (n)
-    n = n-1
-print ('Blastoff!')
-print (n)
+word = 'banana'
+count = 0
+for letter in word :
+    if letter == 'a' : 
+       count = count + 1
+print(count)

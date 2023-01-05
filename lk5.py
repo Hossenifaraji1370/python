@@ -1,4 +1,7 @@
-friends = ['Joseph', 'Glenn', 'Sally']
-for friend in friends : 
-   print('Happy New Year:', friend)
-print('Done!')
+s = 'Monty Python'
+print(s[0:4])
+
+print(s[6:7])
+
+print(s[6:20])
+

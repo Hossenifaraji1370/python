@@ -1,6 +1,3 @@
-while True:
-    line = input('> ')
-    if line == 'done' : 
-       break
-    print(line)
-print('Done!')
+fruit = 'banana'
+for letter in fruit: 
+    print(letter)

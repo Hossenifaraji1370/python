@@ -1,6 +1,6 @@
-while True:
-    line = input('> ')
-    if line == 'done' :
-        break
-    print(line)
-print('Done!')
+fruit = 'banana'
+index = 0
+while index < len(fruit): 
+    letter = fruit[index]
+    print(index, letter)
+    index = index + 1

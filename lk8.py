@@ -1,6 +1,9 @@
-zork = 0
-print('Before', zork)
-for thing in [9, 41, 12, 3, 74, 15] :
-    zork = zork + 1
-    print(zork, thing)
-print('After', zork)
+fruit = 'banana'
+'n' in fruit
+
+'m' in fruit
+
+'nan' in fruit
+
+if 'a' in fruit :
+    print('Found it!')
